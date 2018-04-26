@@ -1,0 +1,224 @@
+
+
+.root { 
+	-fx-focus-color: transparent; 
+	-fx-faint-focus-color: transparent;
+	-fx-text-fill: white;
+}
+
+.column1 {
+	-fx-background-color: #34363D;
+    /*-fx-border-style: hidden solid hidden hidden;
+    -fx-border-width: 5;
+    -fx-border-color: white;*/
+}
+
+.column2 {
+	-fx-background-color: #4281A4;
+}
+
+.ws, .ws .label {
+	-fx-text-fill: white;
+	-fx-font-size: 40px;
+}
+
+.list-view {
+	-fx-background-color: transparent;
+}
+
+.list-view .list-cell {
+	-fx-background-color: #34363D;
+	-fx-text-fill: white;
+	-fx-font-size: 16px;
+	-fx-font-family: Poiret One;
+}
+
+.list-view .list-cell:filled:hover {
+    -fx-cell-hover-color: white;
+    -fx-text-fill: #4281A4;
+}
+
+.list-view .list-cell:selected {
+    -fx-cell-hover-color: white;
+    -fx-text-fill: #4281A4;
+}
+
+
+.list-view .scroll-bar .decrement-arrow,
+.list-view .scroll-bar .increment-arrow,
+.list-view .scroll-bar .decrement-button,
+.list-view .scroll-bar .increment-button {
+    -fx-pref-width: 0;
+    -fx-pref-height: 0;
+}
+ 
+.list-view .scroll-bar:vertical .thumb {
+    -fx-background-insets: 0 2 0 0;
+}
+ 
+ 
+.list-view .scroll-bar .decrement-arrow,
+.list-view .scroll-bar .increment-arrow {
+    -fx-pref-width: 0;
+    -fx-pref-height: 0;
+}
+ 
+.list-view .scroll-bar {
+    -fx-background-color: transparent;
+    -fx-pref-width: 12;
+    -fx-pref-height: 12;
+    -fx-padding: 2;
+}
+ 
+.list-view .scroll-bar .thumb {
+    -fx-background-color: white;
+    -fx-background-radius: 1000;
+    -fx-pref-width: 12;
+    -fx-pref-height: 12;
+}
+
+.tableStyle .label {
+	-fx-text-fill: white;
+	-fx-font-size: 17px;
+}
+
+.tab-pane > .tab-header-area {
+	-fx-cursor:hand ;
+}
+
+.tab-pane > .tab-header-area > .tab-header-background {
+    -fx-background-color: #4281A4;
+}
+
+/*.tab-pane > .tab-header-area {
+	-fx-border-width: 0 0 10 0;
+    -fx-border-color: #34363D;
+}*/
+
+.tab-pane > .tab-header-area > .headers-region > .tab .tab-label {
+	-fx-text-fill: silver;
+	-fx-pref-width: 200;
+	-fx-text-alignment:center;
+	-fx-font-size: 16;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab {
+	-fx-background-color: #4281A4;
+    -fx-background-radius: 10 10 0 0;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #4281A4;
+    -fx-pref-width: 200;
+    -fx-pref-height: 35;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab:selected {
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: white;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab:selected .tab-label {
+ 	-fx-text-fill: white;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab:hover .tab-label {
+ 	-fx-text-fill: white;
+}
+
+.chart .label {
+	-fx-text-fill: white ;
+}
+
+
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: silver;
+    -fx-stroke-width: 1;
+}
+
+.axis {
+    -fx-tick-label-fill: white;
+    -fx-tick-length: 15;
+    -fx-minor-tick-length: 10;
+}
+
+.chart-legend {
+   -fx-background-color:  transparent;
+   -fx-padding: 20px;
+}
+
+.scroll-pane .viewport {  
+    -fx-background-color: #4281A4;  
+}  
+
+.scroll-pane .viewport {  
+	-fx-font-size:16;
+} 
+
+
+.scroll-pane .scroll-bar .decrement-arrow,
+.scroll-pane .scroll-bar .increment-arrow,
+.scroll-pane .scroll-bar .decrement-button,
+.scroll-pane .scroll-bar .increment-button {
+    -fx-pref-width: 0;
+    -fx-pref-height: 0;
+}
+ 
+.scroll-pane .scroll-bar:vertical .thumb {
+    -fx-background-insets: 0 2 0 0;
+}
+ 
+ 
+.scroll-pane .scroll-bar .decrement-arrow,
+.scroll-pane .scroll-bar .increment-arrow {
+    -fx-pref-width: 0;
+    -fx-pref-height: 0;
+}
+ 
+.scroll-pane .scroll-bar {
+    -fx-background-color: #4281A4;
+    -fx-pref-width: 12;
+    -fx-pref-height: 12;
+    -fx-padding: 2;
+}
+ 
+.scroll-pane .scroll-bar .thumb {
+    -fx-background-color: white;
+    -fx-background-radius: 1000;
+    -fx-pref-width: 12;
+    -fx-pref-height: 12;
+} 
+
+.scroll-pane {
+	-fx-background-color: transparent;
+    }
+    
+.year-selectors {
+	-fx-font-size: 14;
+	-fx-text-fill: #39393A;	
+	-fx-cursor: hand;
+}
+
+.download-buttons {
+	-fx-background-color: transparent ;
+	-fx-cursor: hand;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
